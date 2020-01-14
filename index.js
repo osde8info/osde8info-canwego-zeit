@@ -5,8 +5,11 @@ const app = express()
 app.get('*', (req, res) => {
     res.set('Content-Type', 'text/html')
     res.status(200).send(`
-        <h1>Hello from ZEIT NOW path '/' on Now 2.0!</h1>
-        <h2>Go to <a href="/about">/about</a></h2>
+        <h1>what can we do today</h1>
+        <h2>visit <a href="https://www.visitsurrey.com/">surrey</a></h2>
+        <h2>visit <a href="https://www.visitsurrey.com/explore/towns">surrey map</a></h2>
+        <h2>visit <a href="https://www.visitsoutheastengland.com/places-to-visit/sussex">sussex</a></h2>
+        <h2>visit <a href="https://www.visitsoutheastengland.com/places-to-visit/sussex/map">sussex map</a></h2>
     `)
 })
 
