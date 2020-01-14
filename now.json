@@ -1,0 +1,1 @@
+{"version":2,"name":"osde8info-canwedo-zeit","builds":[{"src":"**/*.js","use":"@now/node"}]}
