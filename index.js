@@ -10,4 +10,6 @@ app.get('*', (req, res) => {
     `)
 })
 
+module.exports = app
+
 if (process.env.DEBUG) app.listen(3000)
